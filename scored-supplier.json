@@ -1,0 +1,29 @@
+{
+    "suppliers": [
+        {
+            "id": "84378580738",
+            "is_auto_assign": false,
+            "assign_type": "manual"
+        },
+        {
+            "id": "84868460288",
+            "is_auto_assign": false,
+            "assign_type": "auto"
+        },
+        {
+            "id": "84345860205",
+            "is_auto_assign": false,
+            "assign_type": "auto"
+        }
+    ],
+    "order_id": "order_5678",
+    "recommend_detail":{
+        "cod": 150000,
+        "distance": 12.34,
+        "service_id": "SGN-BIKE-TEST",
+        "supplier_timeout": 10,
+        "recommend_timeout": 10,
+        "current_broadcast_distance": 5.67,
+        "current_time_filter_location": "location_xyz"
+    }
+}
