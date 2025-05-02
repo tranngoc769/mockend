@@ -1,29 +1,974 @@
 {
+  "status_code": 200,
+  "data": {
     "suppliers": [
-        {
-            "id": "84378580738",
-            "is_auto_assign": false,
-            "assign_type": "manual"
-        },
-        {
-            "id": "84868460288",
-            "is_auto_assign": false,
-            "assign_type": "auto"
-        },
-        {
-            "id": "84345860205",
-            "is_auto_assign": false,
-            "assign_type": "auto"
-        }
+      {
+        "id": "84931319004",
+        "is_auto_assign": false,
+        "assign_type": "assign_normal",
+        "recommend_type": ""
+      },
+      {
+        "id": "84376839878",
+        "is_auto_assign": false,
+        "assign_type": "assign_normal",
+        "recommend_type": ""
+      },
+      {
+        "id": "84917692415",
+        "is_auto_assign": false,
+        "assign_type": "assign_normal",
+        "recommend_type": ""
+      },
+      {
+        "id": "84933607568",
+        "is_auto_assign": true,
+        "assign_type": "assign_normal",
+        "recommend_type": ""
+      },
+      {
+        "id": "84938658212",
+        "is_auto_assign": true,
+        "assign_type": "convenient_route",
+        "recommend_type": ""
+      }
     ],
-    "order_id": "order_5678",
-    "recommend_detail":{
-        "cod": 150000,
-        "distance": 12.34,
-        "service_id": "SGN-BIKE-TEST",
-        "supplier_timeout": 10,
-        "recommend_timeout": 10,
-        "current_broadcast_distance": 5.67,
-        "current_time_filter_location": "location_xyz"
+    "order_id": "25GNRAS0",
+    "recommend_detail": {
+      "cod": 126200,
+      "order_distance": 2.23,
+      "service_id": "SGN-BIKE",
+      "supplier_timeout": 30,
+      "recommend_timeout": 2000,
+      "broadcast_distance": 1500,
+      "time_filter_location": 300
+    },
+    "log": {
+      "order_id": "25GNRAS0",
+      "recommendation_config_id": "PARTNER-RECOMMEND",
+      "supplier_found_by_tile38": [
+        {
+          "_id": "84931319004",
+          "lat": 10.869699274031689,
+          "lng": 106.73321231945944,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183165,
+          "matching_settings": {
+            "destination": {
+              "address": "Cà Phê Red, Đường Đỗ Xuân Hợp, P, Phước Long A, Quận 09, Hồ Chí Minh, Việt Nam",
+              "lat": 10.823253,
+              "lng": 106.76947,
+              "short_address": "Cà Phê Red"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 48,
+              "value": 0.8958333333333334
+            },
+            "cancellation_rate": {
+              "orders": 127,
+              "value": 0.08661417322834644
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.972838735170904
+            }
+          },
+          "credit_account": {
+            "VND": -8348070
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 643.4,
+          "location_extra.time": 1746183165.0004866
+        },
+        {
+          "_id": "84376839878",
+          "lat": 10.8664114,
+          "lng": 106.7344027,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183155,
+          "matching_settings": {
+            "destination": {
+              "address": "8GXV+65 Huyện Gò Công Tây, Tỉnh Tiền Giang, Vietnam",
+              "lat": 10.348121982836451,
+              "lng": 106.54295057058334,
+              "short_address": "8GXV+65 Huyện Gò Công Tây"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 15,
+              "value": 0.6666666666666666
+            },
+            "cancellation_rate": {
+              "orders": 19,
+              "value": 0.10526315789473684
+            },
+            "rating": {
+              "orders": 7,
+              "value": 5
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 681.1,
+          "location_extra.time": 1746183152
+        },
+        {
+          "_id": "84917692415",
+          "lat": 10.864956,
+          "lng": 106.734061,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183152,
+          "matching_settings": {
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 0,
+              "value": 1
+            },
+            "cancellation_rate": {
+              "orders": 1,
+              "value": 0
+            },
+            "rating": {
+              "orders": 58,
+              "value": 5
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 897.3,
+          "location_extra.time": 1746183151
+        },
+        {
+          "_id": "84933607568",
+          "lat": 10.862468,
+          "lng": 106.7338496,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183174,
+          "matching_settings": {
+            "destination": {
+              "address": "Đại học Y Dược Thành phố Hồ Chí Minh, 217 Đường Hồng Bàng, Phường 11, Quận 5, Thành phố Hồ Chí Minh, Việt Nam",
+              "lat": 10.755063,
+              "lng": 106.663313,
+              "short_address": "Đại học Y Dược Thành phố Hồ Chí Minh"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 65,
+              "value": 0.9538461538461539
+            },
+            "cancellation_rate": {
+              "orders": 79,
+              "value": 0.1518987341772151
+            },
+            "rating": {
+              "orders": 116,
+              "value": 4.931034482758621
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 1189.7,
+          "location_extra.time": 1746183173
+        },
+        {
+          "_id": "84938658212",
+          "lat": 10.875727428231542,
+          "lng": 106.73301003698779,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183172,
+          "matching_settings": {
+            "destination": {
+              "address": "387 Phan Văn Trị, Phường 11, Bình Thạnh, Hồ Chí Minh, Việt Nam",
+              "lat": 10.818996,
+              "lng": 106.694584,
+              "short_address": "387 Phan Văn Trị"
+            },
+            "enable": true
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 4,
+              "value": 0.75
+            },
+            "cancellation_rate": {
+              "orders": 5,
+              "value": 0
+            },
+            "rating": {
+              "orders": 81,
+              "value": 4.987654320987654
+            }
+          },
+          "credit_account": {
+            "VND": -310900
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 1411,
+          "location_extra.time": 1746183116.927115
+        },
+        {
+          "_id": "84931898835",
+          "lat": 10.871622111054458,
+          "lng": 106.73718167818275,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183162,
+          "matching_settings": {
+            "destination": {
+              "address": "7/28 Thành Thái, Phường 14, Quận 10, Hồ Chí Minh, Việt Nam, Việt Nam",
+              "lat": 10.76958245817554,
+              "lng": 106.6637663170695,
+              "short_address": "7/28 Thành Thái"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 20,
+              "value": 0.25
+            },
+            "cancellation_rate": {
+              "orders": 5,
+              "value": 0
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.992059246507068
+            }
+          },
+          "credit_account": {
+            "VND": -336100
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 1633.1,
+          "location_extra.time": 1746183151.0062652
+        },
+        {
+          "_id": "84937683705",
+          "lat": 10.8696779,
+          "lng": 106.7471345,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183167,
+          "matching_settings": {
+            "destination": {
+              "address": "Bệnh Viện Quận Thủ Đức - Cổng 2, Phú Châu, Phường Tam Phú, Thành phố Thủ Đức, Hồ Chí Minh, 70000, Vietnam",
+              "lat": 10.864286,
+              "lng": 106.746168,
+              "short_address": "Bệnh Viện Quận Thủ Đức - Cổng 2"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 39,
+              "value": 0.5897435897435898
+            },
+            "cancellation_rate": {
+              "orders": 40,
+              "value": 0.025
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.991805199818154
+            }
+          },
+          "credit_account": {
+            "VND": -947800
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2258.7,
+          "location_extra.time": 1746183166
+        },
+        {
+          "_id": "84938584686",
+          "lat": 10.8657333,
+          "lng": 106.7241218,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183173,
+          "matching_settings": {
+            "destination": {
+              "address": "Bùng Binh Cầu Vượt Củ Chi, Củ Chi, Củ Chi, Hồ Chí Minh",
+              "lat": 10.968546,
+              "lng": 106.486273,
+              "short_address": "Bùng Binh Cầu Vượt Củ Chi"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 19,
+              "value": 0
+            },
+            "cancellation_rate": {
+              "orders": 0,
+              "value": 0
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.992107995384092
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2474.8,
+          "location_extra.time": 1746183172
+        },
+        {
+          "_id": "84328887995",
+          "lat": 10.8572149,
+          "lng": 106.7230301,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183165,
+          "matching_settings": {
+            "destination": {
+              "address": "WJ2V+H3 Huyện Hóc Môn, Thành Phố Hồ Chí Minh, Vietnam",
+              "lat": 10.901396989216341,
+              "lng": 106.64262615144253,
+              "short_address": "WJ2V+H3 Huyện Hóc Môn"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 36,
+              "value": 1
+            },
+            "cancellation_rate": {
+              "orders": 61,
+              "value": 0.22950819672131148
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.985784560680755
+            }
+          },
+          "credit_account": {
+            "VND": -3378930
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2507.4,
+          "location_extra.time": 1746183163
+        },
+        {
+          "_id": "84355672512",
+          "lat": 10.863105,
+          "lng": 106.7247683,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183169,
+          "matching_settings": {
+            "destination": {
+              "address": "Cầu Vượt Ngã Tư Bình Phước, Hiệp Bình Phước, Quận 12, Hồ Chí Minh, Việt Nam",
+              "lat": 10.860603,
+              "lng": 106.715338,
+              "short_address": "Cầu Vượt Ngã Tư Bình Phước"
+            },
+            "enable": true
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 16,
+              "value": 1
+            },
+            "cancellation_rate": {
+              "orders": 29,
+              "value": 0.20689655172413793
+            },
+            "rating": {
+              "orders": 143,
+              "value": 4.944055944055946
+            }
+          },
+          "credit_account": {
+            "VND": -356709
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2612,
+          "location_extra.time": 1746183169
+        },
+        {
+          "_id": "84967486365",
+          "lat": 10.857287394205256,
+          "lng": 106.74149140708876,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183166,
+          "matching_settings": {
+            "destination": {
+              "address": "341/2 Lạc Long Quân, Phường 05, Quận 11, Hồ Chí Minh, Việt Nam",
+              "lat": 10.772112,
+              "lng": 106.646072,
+              "short_address": "341/2 Lạc Long Quân"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 40,
+              "value": 0.675
+            },
+            "cancellation_rate": {
+              "orders": 62,
+              "value": 0.1935483870967742
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.9517987017385625
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2698.6,
+          "location_extra.time": 1746182997.9966698
+        },
+        {
+          "_id": "84349632988",
+          "lat": 10.8600083,
+          "lng": 106.7239402,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183167,
+          "matching_settings": {
+            "destination": {
+              "address": "55 Đường Tây Lân, Phường Bình Trị Đông A, Quận Bình Tân, Thành phố Hồ Chí Minh, Việt Nam",
+              "lat": 10.771171,
+              "lng": 106.58664,
+              "short_address": "55 Đường Tây Lân"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 71,
+              "value": 0.43661971830985913
+            },
+            "cancellation_rate": {
+              "orders": 47,
+              "value": 0.1276595744680851
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.9783686259870565
+            }
+          },
+          "credit_account": {
+            "VND": -1098620
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2702.6,
+          "location_extra.time": 1746183166
+        },
+        {
+          "_id": "84326110252",
+          "lat": 10.88906,
+          "lng": 106.7283433,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183148,
+          "matching_settings": {
+            "destination": {
+              "address": "Bờ Bao Tân Thắng, Phường Sơn Kỳ, Quận Tân Phú, Hồ Chí Minh, Việt Nam",
+              "lat": 10.80149,
+              "lng": 106.61941,
+              "short_address": "Bờ Bao Tân Thắng"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 84,
+              "value": 0.4642857142857143
+            },
+            "cancellation_rate": {
+              "orders": 43,
+              "value": 0.023255813953488372
+            },
+            "rating": {
+              "orders": 38,
+              "value": 4.894736842105263
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 2919.8,
+          "location_extra.time": 1746183148
+        },
+        {
+          "_id": "84812638082",
+          "lat": 10.8548802,
+          "lng": 106.7346666,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183161,
+          "matching_settings": {
+            "destination": {
+              "address": "2025/20 Phạm Thế Hiển, Phường 06, Quận 08, Hồ Chí Minh, Việt Nam",
+              "lat": 10.734731,
+              "lng": 106.646773,
+              "short_address": "2025/20 Phạm Thế Hiển"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 12,
+              "value": 1
+            },
+            "cancellation_rate": {
+              "orders": 26,
+              "value": 0.11538461538461539
+            },
+            "rating": {
+              "orders": 32,
+              "value": 5
+            }
+          },
+          "credit_account": {
+            "VND": -595550
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 3167,
+          "location_extra.time": 1746183159
+        },
+        {
+          "_id": "84528863826",
+          "lat": 10.8771212,
+          "lng": 106.7462582,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183170,
+          "matching_settings": {
+            "destination": {
+              "address": "Chợ Thiếc, 129 Phó Cơ Điều, Phường 06, Quận 11, Hồ Chí Minh, Việt Nam",
+              "lat": 10.759956,
+              "lng": 106.657058,
+              "short_address": "Chợ Thiếc"
+            },
+            "enable": true
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 5,
+              "value": 0.8
+            },
+            "cancellation_rate": {
+              "orders": 24,
+              "value": 0.041666666666666664
+            },
+            "rating": {
+              "orders": 71,
+              "value": 5
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 3260,
+          "location_extra.time": 1746183170
+        },
+        {
+          "_id": "84342717478",
+          "lat": 10.8721197,
+          "lng": 106.718636,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183163,
+          "matching_settings": {
+            "destination": {
+              "address": "Chung Cư Happy One, Phú Hòa, Thủ Dầu Một, Bình Dương, Việt Nam",
+              "lat": 10.966027,
+              "lng": 106.687074,
+              "short_address": "Chung Cư Happy One"
+            },
+            "enable": true
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 20,
+              "value": 1
+            },
+            "cancellation_rate": {
+              "orders": 53,
+              "value": 0.16981132075471694
+            },
+            "rating": {
+              "orders": 89,
+              "value": 4.752808988764046
+            }
+          },
+          "credit_account": {
+            "VND": 0
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 3643.4,
+          "location_extra.time": 1746183162
+        },
+        {
+          "_id": "84329068161",
+          "lat": 10.8772422,
+          "lng": 106.7471083,
+          "status": "ONLINE",
+          "vehicle_type": "MOTORBIKE",
+          "last_activity": 1746183181,
+          "matching_settings": {
+            "destination": {
+              "address": "THPT Bình Chiểu, Đường Lê Thị Hoa, Bình Chiểu, Hồ Chí Minh, Việt Nam",
+              "lat": 10.8766,
+              "lng": 106.74033,
+              "short_address": "THPT Bình Chiểu"
+            },
+            "enable": false
+          },
+          "stats": {
+            "acceptance_rate": {
+              "noti": 37,
+              "value": 0.4864864864864865
+            },
+            "cancellation_rate": {
+              "orders": 39,
+              "value": 0.15384615384615385
+            },
+            "rating": {
+              "orders": 200,
+              "value": 4.985342462907128
+            }
+          },
+          "credit_account": {
+            "VND": -130000
+          },
+          "rec_order_point": 0,
+          "rest_rec_order_point": 1,
+          "realistic_distance": 3998,
+          "location_extra.time": 1746183173
+        }
+      ],
+      "filter_attributes": {
+        "include_busy_suppliers": false,
+        "last_activity_duration": 900,
+        "enabled_service_required": true,
+        "rec_order_point": 1,
+        "status": [
+          "ONLINE"
+        ],
+        "enabled_services": [
+          "SGN-BIKE"
+        ],
+        "partner": {
+          "_id": "concung",
+          "operation_config": {
+            "is_dedicated_required": false,
+            "recommend_config_id": "PARTNER-RECOMMEND"
+          }
+        },
+        "cod": 126200,
+        "is_combine_order": false,
+        "broadcast_distance": 1500,
+        "filter_time_location": 300
+      },
+      "valid_suppliers": [
+        {
+          "id": "84931319004",
+          "is_auto_assign": false,
+          "assign_type": "assign_normal",
+          "score": 70.88157472286788,
+          "base_point": 70.88157472286788,
+          "priority_point": 0,
+          "base_point_detail": {
+            "distance": 643.4,
+            "distance_point": 17.131999999999998,
+            "ar": 0.8958333333333334,
+            "ar_point": 17.916666666666668,
+            "cr": 0.08661417322834644,
+            "cr_point": 18.267716535433074,
+            "rating": 4.972838735170904,
+            "rating_point": 9.945677470341808,
+            "speed": 8.093652228550432,
+            "speed_point": 2.6195140504263437,
+            "income": 491675,
+            "income_point": 0,
+            "notify": 1746182582.91964,
+            "notify_point": 5,
+            "free_time_rate": 0.17228239069394305,
+            "free_time_point": 0
+          },
+          "priority_point_detail": {
+            "favorite": 0,
+            "core": 0,
+            "convenient_route": 0,
+            "auto_assign": 0,
+            "vehicle_type": 0,
+            "segment_priority": 0,
+            "combine_order": 0,
+            "tags": 0
+          }
+        },
+        {
+          "id": "84376839878",
+          "is_auto_assign": false,
+          "assign_type": "assign_normal",
+          "score": 67.94437782346787,
+          "base_point": 67.94437782346787,
+          "priority_point": 0,
+          "base_point_detail": {
+            "distance": 681.1,
+            "distance_point": 16.378,
+            "ar": 0.6666666666666666,
+            "ar_point": 13.333333333333332,
+            "cr": 0.10526315789473684,
+            "cr_point": 17.894736842105264,
+            "rating": 5,
+            "rating_point": 10,
+            "speed": 0.021847330033779144,
+            "speed_point": 4.993574314695948,
+            "income": 289658,
+            "income_point": 0.34473333333333356,
+            "notify": 1746182582.91964,
+            "notify_point": 5,
+            "free_time_rate": 0.35075520091194073,
+            "free_time_point": 0
+          },
+          "priority_point_detail": {
+            "favorite": 0,
+            "core": 0,
+            "convenient_route": 0,
+            "auto_assign": 0,
+            "vehicle_type": 0,
+            "segment_priority": 0,
+            "combine_order": 0,
+            "tags": 0
+          }
+        },
+        {
+          "id": "84917692415",
+          "is_auto_assign": false,
+          "assign_type": "assign_normal",
+          "score": 81.25368810293722,
+          "base_point": 81.25368810293722,
+          "priority_point": 0,
+          "base_point_detail": {
+            "distance": 897.3,
+            "distance_point": 12.054000000000002,
+            "ar": 1,
+            "ar_point": 20,
+            "cr": 0,
+            "cr_point": 20,
+            "rating": 5,
+            "rating_point": 10,
+            "speed": 0.5711271166801453,
+            "speed_point": 4.832021436270546,
+            "income": 18970,
+            "income_point": 9.367666666666667,
+            "notify": 1746182582.91964,
+            "notify_point": 5,
+            "free_time_rate": 0.2808706571787359,
+            "free_time_point": 0
+          },
+          "priority_point_detail": {
+            "favorite": 0,
+            "core": 0,
+            "convenient_route": 0,
+            "auto_assign": 0,
+            "vehicle_type": 0,
+            "segment_priority": 0,
+            "combine_order": 0,
+            "tags": 0
+          }
+        },
+        {
+          "id": "84933607568",
+          "is_auto_assign": true,
+          "assign_type": "assign_normal",
+          "score": 77.54269328431543,
+          "base_point": 64.61891107026287,
+          "priority_point": 0.2,
+          "base_point_detail": {
+            "distance": 1189.7,
+            "distance_point": 6.205999999999999,
+            "ar": 0.9538461538461539,
+            "ar_point": 19.076923076923077,
+            "cr": 0.1518987341772151,
+            "cr_point": 16.962025316455698,
+            "rating": 4.931034482758621,
+            "rating_point": 9.862068965517244,
+            "speed": 1.2055480480194092,
+            "speed_point": 4.645427044700174,
+            "income": 214006,
+            "income_point": 2.8664666666666676,
+            "notify": 1746182582.91964,
+            "notify_point": 5,
+            "free_time_rate": 0.3911832023086874,
+            "free_time_point": 0
+          },
+          "priority_point_detail": {
+            "favorite": 0,
+            "core": 0,
+            "convenient_route": 0,
+            "auto_assign": 0.2,
+            "vehicle_type": 0,
+            "segment_priority": 0,
+            "combine_order": 0,
+            "tags": 0
+          }
+        },
+        {
+          "id": "84938658212",
+          "is_auto_assign": true,
+          "assign_type": "convenient_route",
+          "score": 96.82196534767506,
+          "base_point": 56.95409726333827,
+          "priority_point": 0.7,
+          "base_point_detail": {
+            "distance": 1411,
+            "distance_point": 1.7800000000000005,
+            "ar": 0.75,
+            "ar_point": 15,
+            "cr": 0,
+            "cr_point": 20,
+            "rating": 4.987654320987654,
+            "rating_point": 9.97530864197531,
+            "speed": 0.16471202069927657,
+            "speed_point": 4.951555288029624,
+            "income": 292583,
+            "income_point": 0.2472333333333332,
+            "notify": 1746182582.91964,
+            "notify_point": 5,
+            "free_time_rate": 0.40573523270381884,
+            "free_time_point": 0
+          },
+          "priority_point_detail": {
+            "favorite": 0,
+            "core": 0,
+            "convenient_route": 0.5,
+            "auto_assign": 0.2,
+            "vehicle_type": 0,
+            "segment_priority": 0,
+            "combine_order": 0,
+            "tags": 0
+          }
+        }
+      ],
+      "invalid_suppliers": [
+        {
+          "_id": "84342717478",
+          "reason": "Removed by user's banned list"
+        },
+        {
+          "_id": "84937683705",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2258.7
+          }
+        },
+        {
+          "_id": "84938584686",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2474.8
+          }
+        },
+        {
+          "_id": "84328887995",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2507.4
+          }
+        },
+        {
+          "_id": "84355672512",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2612
+          }
+        },
+        {
+          "_id": "84967486365",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2698.6
+          }
+        },
+        {
+          "_id": "84349632988",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2702.6
+          }
+        },
+        {
+          "_id": "84326110252",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 2919.8
+          }
+        },
+        {
+          "_id": "84812638082",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 3167
+          }
+        },
+        {
+          "_id": "84528863826",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 3260
+          }
+        },
+        {
+          "_id": "84329068161",
+          "reason": "Removed by max distance",
+          "data": {
+            "realistic_distance": 3998
+          }
+        }
+      ]
     }
+  }
 }
